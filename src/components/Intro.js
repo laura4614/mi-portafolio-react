@@ -11,7 +11,7 @@ const Intro = () => {
         </p>
       </div>
       <div className="foto">
-        <img src={foto} alt="foto-Laura" width="100%" />
+        <img src={foto} className="img-fluid" alt="foto-Laura" width="100%" />
       </div>
     </section>
   );
