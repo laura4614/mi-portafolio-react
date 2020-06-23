@@ -5,7 +5,7 @@ const ProjectCard = ({ name, description, img, url }) => {
 
   return (
     <div className="col col-12 col-sm-6 col-md-6 col-lg-4 mt-4 mb-4">
-      <div className="card m-auto" style={{ width: "15rem" }}>
+      <div className="card m-auto project-card" style={{ width: "15rem" }}>
         <img className="card-img-top" src={img} alt={name} />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>

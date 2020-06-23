@@ -1,7 +1,6 @@
 import React from "react";
-import ProjectCard from "./Project";
-import fotolaura from "../../imagenes/fotolaura.jpg";
-import ProjectsList from "../../datos/datos_projectos";
+import ProjectCard from "./projects/ProjectCard";
+import ProjectsList from "../datos/datos_projectos";
 
 const Projects = () => {
   return (
@@ -9,8 +8,6 @@ const Projects = () => {
       <h1>Proyectos</h1>
       <div className="row d-flex justify-content-center">
         {ProjectsList.map((project, index) => {
-          console.log(index);
-
           return (
             <ProjectCard
               key={index}
